@@ -1,6 +1,4 @@
-
-export class LoginModel
-{
-  email!:"string";
-  senha!:"string";
+export class LoginModel {
+    email!: string;
+    senha!: string;
 }
