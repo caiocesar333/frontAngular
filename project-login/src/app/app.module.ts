@@ -11,6 +11,8 @@ import { NoticiasComponent } from './pages/noticias/noticias.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { Interceptor } from './interceptor/interceptor';
 import { AddNoticiaComponent } from './pages/add-noticia/add-noticia.component';
+import { NgxSpinnerModule } from 'ngx-spinner';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 const serviceAutentica = [Interceptor]
@@ -31,6 +33,9 @@ const serviceAutentica = [Interceptor]
 
     CommonModule,
     ReactiveFormsModule,
+
+    NgxSpinnerModule,
+    BrowserAnimationsModule
     
     
   ],
